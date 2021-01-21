@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo 2</title>
+</head>
+
+<body>
+    <h2>What Can Javascript Do?</h2>
+
+    <p  id="p1">Javascript can change HTML content.</p>
+
+    <button type="button" onclick='display_message()'>Click Me!</button>
+    <script>
+        function display_message() {
+            document.getElementById("p1").innerHTML = "JavaScript is cool!<br>This comes from a function";
+        }
+    </script>
+    
+    
+</body>
+</html>
